@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean id="gr" class="sp4.sp4_test01.Greeter" >  <!-- id는 변수명 class 는 패키지명 --> 
+	      <property name ="format" value="%s, 안녕하세요!" />     <!-- name에 멤버필드 변수/ 값을 주고싶으면 value(초기화) -->
+	   
+	   
+	   </bean>
+</beans>

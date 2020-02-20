@@ -50,6 +50,6 @@ public class BoardController {
 		}
 		return "board/qna_board_view"; //이거 내일 페이지 보고 수정
 	}
-	@RequeestMapping("/board/boardModify/{num}")
+	//@RequeestMapping("/board/boardModify/{num}")
 	
 }

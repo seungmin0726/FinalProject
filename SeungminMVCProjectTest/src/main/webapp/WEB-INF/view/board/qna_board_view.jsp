@@ -49,10 +49,10 @@
 	<tr align="center" valign="middle">
 		<td colspan="5">
 			<font size=2>
-			<a href="boardModify.bd?num=${board.boardNum }">
+			<a href="/board/boardModify/${board.boardNum }">
 			[수정]
 			</a>&nbsp;&nbsp;
-			<a href="boardDelete.bd?num=${board.boardNum }">
+			<a href="/board/boardDelete/${board.boardNum }">
 			[삭제]
 			</a>&nbsp;&nbsp;
 			<a href="board">[목록]</a>&nbsp;&nbsp;

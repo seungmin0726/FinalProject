@@ -38,7 +38,7 @@ public class BoardController {
 		System.out.println("writeBoardPro : " + boardCommand.getBoardName());
 		boardWriteService.execute(boardCommand,session,request);
 		
-		return "board/qna_board_list";
+		return "/board";
 	}
 	
 	@RequestMapping("/board/boardDetail/{aaa}")
@@ -50,5 +50,6 @@ public class BoardController {
 		}
 		return "board/qna_board_view"; //이거 내일 페이지 보고 수정
 	}
+	@RequeestMapping("/board/boardModify/{num}")
 	
 }

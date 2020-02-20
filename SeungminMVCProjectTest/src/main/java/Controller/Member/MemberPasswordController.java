@@ -32,7 +32,10 @@ public class MemberPasswordController {
 			errors.rejectValue("userPw", "badPw");
 			return "member/pwModify";
 		}
-		model.addAttribute("changePwdCommand", new ChangePwdCommand());
+		
+		ChangePwdCommand aaa = new ChangePwdCommand();
+		aaa.setUserId(memberCommand.getUserId());
+		model.addAttribute("changePwdCommand", aaa);
 		return "member/pwModify_1";
 	}
 }

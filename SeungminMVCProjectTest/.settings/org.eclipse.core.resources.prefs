@@ -2,3 +2,4 @@ eclipse.preferences.version=1
 encoding//src/main/java=utf-8
 encoding//src/main/resources/message/error.properties=UTF-8
 encoding//src/main/resources/message/label.properties=UTF-8
+encoding//src/main/webapp/errors/404errorHandller.jsp=UTF-8

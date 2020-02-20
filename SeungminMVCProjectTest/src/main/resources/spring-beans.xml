@@ -20,6 +20,7 @@
 	<bean id ="memberModifyService" 
 		class="Service.Member.MemberModifyService" />
 	<bean id="passwordModifyService" class="Service.Member.PasswordModifyService" />
+	<bean id="mainService" class="Service.Member.MainService" />
 </beans>
 
 
